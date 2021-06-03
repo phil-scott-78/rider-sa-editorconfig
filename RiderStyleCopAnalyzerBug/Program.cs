@@ -2,11 +2,13 @@
 
 namespace RiderStyleCopAnalyzerBug
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private const int foo = 14;
+
+        private static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine(foo);
         }
     }
 }

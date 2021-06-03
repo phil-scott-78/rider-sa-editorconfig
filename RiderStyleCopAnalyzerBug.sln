@@ -1,6 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RiderStyleCopAnalyzerBug", "RiderStyleCopAnalyzerBug\RiderStyleCopAnalyzerBug.csproj", "{907AFF02-6EF8-41A8-8CD2-E2C44998AA1A}"
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31313.381
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RiderStyleCopAnalyzerBug", "RiderStyleCopAnalyzerBug\RiderStyleCopAnalyzerBug.csproj", "{907AFF02-6EF8-41A8-8CD2-E2C44998AA1A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{70523A06-BC06-42AD-972E-AD2926E1D569}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +20,11 @@ Global
 		{907AFF02-6EF8-41A8-8CD2-E2C44998AA1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{907AFF02-6EF8-41A8-8CD2-E2C44998AA1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{907AFF02-6EF8-41A8-8CD2-E2C44998AA1A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D3ABCAD5-8F64-4182-A4ED-4F98968E996F}
 	EndGlobalSection
 EndGlobal
